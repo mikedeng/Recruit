@@ -4,9 +4,9 @@
 }
 
 .container {
-	font-size: 14px;
+	font-size: 12px;
 	height: 100%;
-	width: 19em;
+	width: 25em;
 	padding: 2em;
 	background-color: rgb(96,125,139);
 }
@@ -65,11 +65,11 @@ input[type=checkbox] {
 	line-height: 1.5em;
 	width: 2em;
 	text-align: center;
-	margin-right: 1em;
+	margin-right: 1.5em;
 }
 
 .positionRow .right {
-	margin-right: 1.5em;
+	margin-right: 2em;
 }
 
 .arrow {

@@ -2,10 +2,8 @@
   "env": {
     "browser": true,
     "node": true
-  },
-  ecmaFeatures: {
-    jsx: true
-  },
+  },   
+  "parser": "babel-eslint",
   "globals": {
     "window": true,
     "document": true
