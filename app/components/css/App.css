@@ -4,11 +4,12 @@
 }
 
 .container {
-	font-size: 12px;
+	font-size: 13px;
 	height: 100%;
 	width: 25em;
 	padding: 2em;
 	background-color: rgb(96,125,139);
+	font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\\5b8b体", sans-serif;
 }
 
 ul li {

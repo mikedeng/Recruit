@@ -1,7 +1,7 @@
 import React from 'react';
 import RecruitPanel from './RecruitPanel';
 
-require('./App.css');
+require('./css/App.css');
 
 class App extends React.Component {
   constructor(props) {
