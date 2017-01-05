@@ -1,3 +1,82 @@
-body {
-	font-family: '微软雅黑'
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	font-size: 14px;
+	height: 100%;
+	width: 19em;
+	padding: 2em;
+	background-color: rgb(96,125,139);
+}
+
+ul li {
+	list-style: none;
+	line-height: 1.5em;
+	height: 2em;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	color: rgb(205, 217, 218);
+	line-height: 2.5em;
+	height: 2.5em;
+}
+
+h1 a {
+	font-size: 1em;
+	text-decoration: none;
+	color: rgb(205, 217, 218);
+}
+
+input[type=checkbox] {
+	margin-right: 1em;
+}
+
+.deptRow {
+	color: rgb(247, 246, 237);	
+	height: 3em;
+	line-height: 3em;
+	font-size: 1em;
+	font-weight: 700;
+}
+
+.positionRow {
+	color: rgb(205, 217, 218);
+}
+
+.positionRow .left {
+	margin-left: 1em;
+}
+
+.deptRow .right {
+	background-color: rgb(81,106,118);
+	border-radius: 0.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	width: 2em;
+	text-align: center;
+	margin-right: 1em;
+}
+
+.positionRow .right {
+	margin-right: 1.5em;
+}
+
+.arrow {
+	margin-left: 1em;
+}
+
+.clearAll {
+	font-size: 0.7em;
+	margin-right: 1em;
 }
